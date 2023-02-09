@@ -6,10 +6,13 @@ public class CharacterController : MonoBehaviour
 {
     [SerializeField] float _speed;
     Animator _ani;
+    float _Hp = 0;
+    float _time;
     // Start is called before the first frame update
     void Start()
     {
         _ani= GetComponent<Animator>();
+        
     }
 
     // Update is called once per frame
@@ -21,10 +24,10 @@ public class CharacterController : MonoBehaviour
     enum EMoveType
     {
         Idle,
-        Right,
-        forwrd,
-        back,
-        Left,
+        RunForward,
+        RunLeft,
+        RunRight,
+        RunBackwardRight,
     }
     void move()
     {
@@ -33,27 +36,31 @@ public class CharacterController : MonoBehaviour
         if(Input.GetKey("w"))
         {
             v3 += Vector3.forward * Time.deltaTime * _speed;
-            _ani.SetInteger("Movement", (int)EMoveType.forwrd);
+            _ani.SetInteger("Movement", (int)EMoveType.RunForward);
         }
         if(Input.GetKey("a"))
         {
             v3 += Vector3.left * Time.deltaTime * _speed;
-            _ani.SetInteger("Movement", (int)EMoveType.Left);
+            _ani.SetInteger("Movement", (int)EMoveType.RunLeft);
         }
 
         if(Input.GetKey("d"))
         {
             v3 += Vector3.right * Time.deltaTime * _speed;
-            _ani.SetInteger("Movement", (int)EMoveType.Right);
+            _ani.SetInteger("Movement", (int)EMoveType.RunRight);
         }
         
         if(Input.GetKey("s"))
         {
             v3 += Vector3.back * Time.deltaTime * _speed;
-            _ani.SetInteger("Movement", (int)EMoveType.back);
+            _ani.SetInteger("Movement", (int)EMoveType.RunBackwardRight);
         }
-        if(v3 != Vector3.zero) { transform.Translate(v3); }
-        
+        if(v3 != Vector3.zero) transform.Translate(v3);
+        else
+        {
+            _ani.SetInteger("moveDirection", 0);
+        }
+
     }
 
 }
