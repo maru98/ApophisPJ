@@ -56,13 +56,12 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripst\CharacterController.cs" />
     <Compile Include="Assets\Winter Zone Mini 1.0\Scripts\EmitterPositionController.cs" />
-    <Compile Include="Assets\Scripst\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripst\Ui\Lobby.cs" />
     <Compile Include="Assets\Winter Zone Mini 1.0\Scripts\FXDemoController.cs" />
     <Compile Include="Assets\Scripst\Ui\Option.cs" />
     <Compile Include="Assets\Scripst\Ui\gameUI.cs" />
+    <Compile Include="Assets\Scripst\HeroController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DelthorGames\AKM\HowToUse.txt" />
