@@ -57,12 +57,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Winter Zone Mini 1.0\Scripts\EmitterPositionController.cs" />
-    <Compile Include="Assets\Scripst\HeroController.cs" />
+    <Compile Include="Assets\Scripst\Camera.cs" />
     <Compile Include="Assets\Scripst\Ui\Lobby.cs" />
     <Compile Include="Assets\Winter Zone Mini 1.0\Scripts\FXDemoController.cs" />
     <Compile Include="Assets\Scripst\Ui\Option.cs" />
     <Compile Include="Assets\Scripst\Ui\gameUI.cs" />
-    <Compile Include="Assets\Scripst\Camera.cs" />
+    <Compile Include="Assets\Scripst\HeroMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DelthorGames\AKM\HowToUse.txt" />
