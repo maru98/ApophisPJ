@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripst\Ui\Option.cs" />
     <Compile Include="Assets\Scripst\Ui\gameUI.cs" />
     <Compile Include="Assets\Scripst\HeroMove.cs" />
+    <Compile Include="Assets\Scripst\test\PlayerTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\DelthorGames\AKM\HowToUse.txt" />
