@@ -1,7 +1,7 @@
 using UnityEditor.Rendering;
 using UnityEngine;
 
-public class PlayerTest : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float walkSpeed;
     [SerializeField] private float RunSpeed;
