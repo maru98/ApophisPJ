@@ -689,6 +689,7 @@ MonoBehaviour:
   _soundoption: {fileID: 0}
   _keyoption: {fileID: 0}
   _mouseoption: {fileID: 0}
+  _GmPanel: {fileID: 0}
 --- !u!1 &701634443
 GameObject:
   m_ObjectHideFlags: 0
@@ -2479,7 +2480,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 0.38679248, g: 0.38679248, b: 0.38679248, a: 1}
   m_Intensity: 1
   m_Range: 579.2148
   m_SpotAngle: 84.26472
