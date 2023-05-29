@@ -149,7 +149,7 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: Gun0_fineSingMode
+      name: Gun0_fineSight
       takeName: Armature|ArmatureAction
       internalID: 5401091116426756364
       firstFrame: 180

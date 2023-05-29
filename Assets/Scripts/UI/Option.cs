@@ -13,6 +13,7 @@ public class Option : MonoBehaviour
 
     void Update()
     {
+        /*
         if (_mouseoption.activeSelf)
         {
             if (Input.GetKeyDown(KeyCode.Escape)) _mouseoption.SetActive(false);
@@ -40,7 +41,7 @@ public class Option : MonoBehaviour
                 Time.timeScale = 0f;
             }
         }
-
+        */
     }
 
 
